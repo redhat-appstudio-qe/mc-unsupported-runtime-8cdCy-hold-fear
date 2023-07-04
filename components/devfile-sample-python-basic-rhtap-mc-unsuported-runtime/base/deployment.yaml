@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-python-basic-rhtap-mc-unsuported-runtime
     spec:
       containers:
-      - image: python-image:latest
+      - image: quay.io/redhat-appstudio-qe/multi-comp-e2e-yynh-tenant/mc-unsupported-runtime/devfile-sample-python-basic-rhtap-mc-unsuported-runtime@sha256:64d28229cda0429adf8a74d7d0d4cb1e5f3bd2cf08fc12a6c0a015f887526871
         name: my-python
         ports:
         - containerPort: 8081
